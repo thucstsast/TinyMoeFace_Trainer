@@ -1,0 +1,12 @@
+root = true
+
+# Use UNIX-style line ending and UTF-8 encoding.
+[*]
+end_of_line = lf
+insert_final_newline = true
+charset = utf-8
+
+# Use 4 space as indent for Java sources.
+[*.java]
+indent_style = space
+indent_size = 4

@@ -1,0 +1,10 @@
+apply plugin: "java"
+
+archivesBaseName = "TinyMoeFaceTrainer"
+version = '0.0'
+
+jar {
+    manifest {
+        attributes 'Main-Class': 'org.net9.tinymoeface.trainer.FaceDetectionTrainer'
+    }
+}
