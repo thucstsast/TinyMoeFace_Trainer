@@ -1,0 +1,5 @@
+ext {
+    openCVJavaBinDir = "C:/Applications/opencv/build/java"
+    openCVJarName = "opencv-310.jar"
+    openCVSharedLibraryName = "x64/opencv_java310.dll"
+}

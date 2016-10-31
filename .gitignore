@@ -1,4 +1,4 @@
-# Created by https://www.gitignore.io/api/gradle
+# Created with the help of https://www.gitignore.io
 
 ### Gradle ###
 .gradle
@@ -15,3 +15,17 @@ gradle-app.setting
 
 # # Work around https://youtrack.jetbrains.com/issue/IDEA-116898
 # gradle/wrapper/gradle-wrapper.properties
+
+# IntelliJ
+*.iws
+.idea/
+.idea_modules/
+
+# Crashlytics plugin (for Android Studio and IntelliJ)
+com_crashlytics_export_strings.xml
+crashlytics.properties
+crashlytics-build.properties
+fabric.properties
+
+# OpenCV configurations
+opencv_config.gradle
